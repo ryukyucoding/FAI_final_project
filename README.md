@@ -2,7 +2,7 @@
 
 ssh b12705019@ws1.csie.ntu.edu.tw
 
-conda init bash
+cd /tmp2/b12705019
 
 source ~/.bashrc
 
