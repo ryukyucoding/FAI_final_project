@@ -6,7 +6,7 @@ Based on the paper: "Probability-Based Agent for Texas Hold'em Poker"
 
 import sys
 import time
-from agents.agent import PPOPokerAgent  # Your PPO agent
+from agents.RLagent import PPOPokerAgent  # Your PPO agent
 from agents.call_player import CallPlayer
 from agents.random_player import RandomPlayer
 from agents.console_player import ConsolePlayer

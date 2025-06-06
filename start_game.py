@@ -3,7 +3,7 @@ from game.game import setup_config, start_poker
 from agents.call_player import setup_ai as call_ai
 from agents.random_player import setup_ai as random_ai
 from agents.console_player import setup_ai as console_ai
-from agents.agent import setup_ai as agent_ai
+from agents.RLagent import setup_ai as agent_ai
 from baseline0 import setup_ai as baseline0_ai
 
 config = setup_config(max_round=20, initial_stack=1000, small_blind_amount=5)
